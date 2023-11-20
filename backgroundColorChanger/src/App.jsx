@@ -5,8 +5,10 @@ function App() {
 
   return (
    <>
-    <div className='w-full h-screen duration-200' style={{backgroundColor : color}}>
-        <div className='fixed flex flex-wrap bottom-20 justify-center inset-x-0 px-2'>
+    <div className='w-full h-screen duration-200 ' style={{backgroundColor : color}}>
+      <div className='fixed top-48 text-white font-serif font-medium inset-x-52 justify-center text-6xl'> Background Color Changer</div>
+
+        <div className='fixed inset-x-0 flex flex-wrap bottom-20 justify-center px-2'>
            <div className='flex flex-wrap gap-5 bg-white py-2 px-4 rounded-xl'>
            <button className='bg-red-700 outline-none px-4 py-3 text-white rounded-xl' onClick={() => {setColor("red")}}>Red</button>
            <button className='bg-green-600 outline-none px-4 py-3 text-white rounded-xl' onClick={() => {setColor("green")}}>Green</button>
