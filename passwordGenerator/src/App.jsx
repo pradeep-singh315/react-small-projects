@@ -46,7 +46,7 @@ function App() {
         <div className='text-orange-500 text-xl font-extrabold pb-5'>Password Generator</div>
         <div className='flex shadow rounded-lg overflow-hidden mb-5'>
           <input type="text" value={password} className='w-full outline-none p-2 rounded-lg text-orange-600' placeholder='Password' readOnly ref={passwordRef}/>
-          <button className='rounded-lg bg-blue-800 text-white px-2' onClick={copyPassword}>Copy</button>
+          <button className='rounded-lg bg-blue-800 text-white px-2 hover:text-blue-700 hover:bg-white hover:border hover:border-blue-700' onClick={copyPassword}>Copy</button>
         </div>
         <div className='flex text-sm text-orange-600 gap-5'>
           <div>
